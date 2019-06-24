@@ -1,0 +1,36 @@
+{
+    "actionBar": true,
+    "actionBarNewButton": false,
+    "actionBarNewButtonText": "New",
+    "actionBarTitle": "Tickets",
+    "authorization": {
+        "allowedRoles": []
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "tickets",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "image": "Photo",
+    "name": "Listing",
+    "navigateOnItemTap": {
+        "allowBackNavigation": false,
+        "module": "tickets",
+        "view": "ticket-details"
+    },
+    "navigateOnNewTap": {
+        "allowBackNavigation": false
+    },
+    "pageSize": 20,
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "searchable": false,
+    "secondLine": "Description",
+    "swipeable": false,
+    "title": "Subject",
+    "type": "view",
+    "uniqueID": "98fcbc6c-4768-48a6-8d98-85e4be6aa875",
+    "viewType": "mobile-two-lines-image-list-view"
+}

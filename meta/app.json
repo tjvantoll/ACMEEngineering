@@ -1,0 +1,46 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "displayName": "Listing",
+            "module": "Tickets",
+            "type": "tab",
+            "view": "Listing"
+        }
+    ],
+    "mobileOfflineSupport": true,
+    "mobileTheme": "light",
+    "name": "ACMEEngineering",
+    "ripple": false,
+    "schemaVersion": "1.1.0",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "theme": "metro",
+    "type": "app",
+    "uniqueID": "d5e50692-9c00-4788-86ce-86235d17c9ab",
+    "webNavigation": [
+        {
+            "moduleName": "System",
+            "name": "landing-page",
+            "type": "view",
+            "uniqueID": "b3104271-49ae-4138-a2bd-da5f8b34abc5"
+        }
+    ],
+    "webOfflineSupport": false
+}

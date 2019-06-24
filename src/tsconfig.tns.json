@@ -1,0 +1,20 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "module": "es2015",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "paths": {
+            "@src/*": [
+                "src/*.android.ts",
+                "src/*.ios.ts",
+                "src/*.tns.ts",
+                "src/*"
+            ]
+        }
+    },
+    "files": [
+        "main.tns.ts",
+        "app/modules/system/system.module.tns.ts", "app/modules/tickets/tickets.module.tns.ts"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "confirmPasswordLabel": "Confirm Password",
+    "emailLabel": "Email",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "loginLabel": "Log In",
+    "logo": "logo_default_login.png",
+    "name": "register",
+    "passwordLabel": "Password",
+    "platform": "mobile",
+    "registerLabel": "Register",
+    "schemaVersion": "1.0",
+    "title": "<Title>",
+    "type": "view",
+    "uniqueID": "a7e0dd2e-c2bd-4e6d-924b-bf3c11967162",
+    "usernameLabel": "Username",
+    "viewType": "mobile-register"
+}

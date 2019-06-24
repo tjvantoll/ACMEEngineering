@@ -1,0 +1,23 @@
+{
+    "dataProviders": {
+        "DefaultDataProvider": {
+            "serviceUri": "https://baas.kinvey.com",
+            "appKey": "kid_rkDJUINIQ"
+        }
+    },
+    "authentication": {
+        "authProviders": {
+            "kinvey-auth": {
+                "items": [{
+                    "dataProviders": ["DefaultDataProvider"],
+                    "settings": {
+                        "sessionKey": "DefaultDataProvider",
+                        "serviceUri": "https://baas.kinvey.com",
+                        "appKey": "kid_rkDJUINIQ",
+                        "appSecret": "17282f9d91da4af7b398855e32ea4dd0"
+                    }
+                }]
+            }
+        }
+    }
+}

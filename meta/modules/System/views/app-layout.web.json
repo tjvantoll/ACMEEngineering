@@ -1,0 +1,314 @@
+{
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "alt": "",
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "containerUid": "aeefe37d-81c1-48db-b201-231a1232ffff",
+            "id": "image0",
+            "model": "",
+            "navigateUrl": "/",
+            "schemaVersion": "1.0",
+            "src": "logo_default.png",
+            "type": "image",
+            "uniqueID": "b530e2b4-97a5-4498-a012-35b387a12b9a"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "containerUid": "e20844dd-96e0-449d-8ee4-8b1318ee9925",
+            "events": {
+                "onChange": "",
+                "onSelect": ""
+            },
+            "id": "languagesDdl",
+            "name": "",
+            "schemaVersion": "1.0",
+            "title": "",
+            "type": "languages-drop-down",
+            "uniqueID": "80bcea7f-bb6c-4e1d-854b-bd46f39b4ca7"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "containerUid": "ec3bd701-cd49-47cf-8334-357d322d8ab1",
+            "id": "userdropdown0",
+            "schemaVersion": "1.0",
+            "type": "user-drop-down",
+            "uniqueID": "5db73898-7e27-4e97-822c-b4bce8512b6b"
+        },
+        {
+            "containerUid": "aeefe37d-81c1-48db-b201-231a1232f67f",
+            "id": "navigationpanelbar0",
+            "schemaVersion": "1.0",
+            "type": "navigation-panel-bar",
+            "uniqueID": "0180a619-6bd1-4c41-acc3-45ae0635d039"
+        },
+        {
+            "containerUid": "c3ab3207-f259-4eb7-995f-678d19906658",
+            "id": "contentplaceholder0",
+            "schemaVersion": "1.0",
+            "type": "content-placeholder",
+            "uniqueID": "fb80b972-34b3-40ca-b973-2783b6bacf70"
+        }
+    ],
+    "dataSources": [],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "app-layout",
+    "platform": "web",
+    "readonly": false,
+    "rows": [
+        {
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "classList": "ks-header k-grid-header",
+            "cols": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "xs": 2
+                    },
+                    "classList": "ks-logo",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "aeefe37d-81c1-48db-b201-231a1232ffff"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "xs": 7
+                    },
+                    "classList": "ks-col-placeholder",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "ce947c01-62bd-4b89-810e-084a6d1a0dc7"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "xs": 2
+                    },
+                    "classList": "ks-languages text-right",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "e20844dd-96e0-449d-8ee4-8b1318ee9925"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "xs": 1
+                    },
+                    "classList": "ks-user-drop-down-wrapper",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "ec3bd701-cd49-47cf-8334-357d322d8ab1"
+                }
+            ],
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "76a58461-247d-4dc4-a269-1754d93e0dbf"
+        },
+        {
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "classList": "ks-header-content-wrapper",
+            "cols": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "xs": 2
+                    },
+                    "classList": "ks-side-navigation ks-mobile-navigation",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "aeefe37d-81c1-48db-b201-231a1232f67f"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "xs": 10
+                    },
+                    "classList": "ks-content k-content",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "c3ab3207-f259-4eb7-995f-678d19906658"
+                }
+            ],
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "76a58461-247d-4dc4-a269-2754d93e0dbf"
+        }
+    ],
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "b86cb248-ba36-495a-8887-c2f2c0e5c1c6",
+    "viewType": "app-layout"
+}

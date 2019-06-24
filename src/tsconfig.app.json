@@ -1,0 +1,21 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./out-tsc/app",
+        "module": "es2015",
+        "types": [
+            "node"
+        ],
+        "paths": {
+            "@src/*": [
+                "src/*.web.ts",
+                "src/*"
+            ]
+        }
+    },
+    "files": [
+        "main.ts",
+        "polyfills.ts",
+        "app/modules/system/system.module.ts", "app/modules/tickets/tickets.module.ts"
+    ]
+}

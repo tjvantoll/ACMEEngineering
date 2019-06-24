@@ -1,0 +1,551 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "children": [
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "h1",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilelabel0",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "{{$data.tickets?.Subject}} ",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "9a578216-e243-4e2e-85c7-15bf766ac519"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilelabel1",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "{{$data.tickets?.Description}} ",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "2d045748-080c-42d2-b675-108a0aab6e5c"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "m-t-10",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobileimage0",
+                            "loadMode": "async",
+                            "local": "",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "src": "{{$data.tickets?.Photo}} ",
+                            "stretch": "aspectFit",
+                            "type": "mobile-image",
+                            "uniqueID": "3e6dda45-8d8a-4887-ad6e-ba9a6c0a52df"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "h2",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilelabel5",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Location",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "376021a9-0eea-43e5-8f48-f3a1074436db"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "200",
+                                    "width": ""
+                                }
+                            },
+                            "children": [
+                                {
+                                    "absoluteLayout": {},
+                                    "accessToken": "pk.eyJ1IjoidGp2YW50b2xsIiwiYSI6ImNpaHdjN2RwcDAyam50NWtoaXpscGJidnMifQ.R1s89uuLt3BKNHytLasOiw",
+                                    "appearanceStyles": {
+                                        "backgroundColor": null,
+                                        "color": null
+                                    },
+                                    "boxStyles": {
+                                        "margin": "",
+                                        "padding": "",
+                                        "size": {
+                                            "height": "",
+                                            "width": ""
+                                        }
+                                    },
+                                    "centerPosition": {
+                                        "latitude": "42.359328",
+                                        "longitude": "-71.0653234"
+                                    },
+                                    "childrenDataSourceAlias": "item",
+                                    "classList": "",
+                                    "dataSourceName": "",
+                                    "dockLayout": {},
+                                    "flexboxLayout": {
+                                        "alignSelf": "stretch",
+                                        "flexWrapBefore": false
+                                    },
+                                    "gridLayout": {
+                                        "col": 0,
+                                        "row": 0
+                                    },
+                                    "id": "mobilemapbox0",
+                                    "markerNavigation": {
+                                        "allowBackNavigation": true
+                                    },
+                                    "markerSubtitle": "Yo",
+                                    "markerTitle": "Yo",
+                                    "platform": "mobile",
+                                    "schemaVersion": "1.0",
+                                    "showUserLocation": false,
+                                    "type": "mobile-mapbox",
+                                    "uniqueID": "1f0d539c-7039-42f8-a39d-42c71e6d1a3f",
+                                    "zoomLevel": 14
+                                }
+                            ],
+                            "classList": "",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridConfig": {
+                                "columns": "*",
+                                "rows": "*"
+                            },
+                            "gridLayout": {},
+                            "id": "mobilegridlayout0",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "type": "mobile-grid-layout",
+                            "uniqueID": "c909b712-b564-4bbd-b5fc-2028d22594f1"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "h2 m-t-10",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilelabel4",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Update status",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "e538bf88-8f99-4386-b1bf-34999fe9da10"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "autoGenerate": "",
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "children": [
+                                {
+                                    "absoluteLayout": {},
+                                    "appearanceStyles": {
+                                        "backgroundColor": null,
+                                        "color": null
+                                    },
+                                    "boxStyles": {
+                                        "margin": "",
+                                        "padding": "",
+                                        "size": {
+                                            "height": "",
+                                            "width": ""
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "absoluteLayout": {},
+                                            "appearanceStyles": {
+                                                "backgroundColor": null,
+                                                "color": null
+                                            },
+                                            "boxStyles": {
+                                                "margin": "",
+                                                "padding": "",
+                                                "size": {
+                                                    "height": "",
+                                                    "width": ""
+                                                }
+                                            },
+                                            "classList": "",
+                                            "dockLayout": {},
+                                            "documentDataSource": "tickets",
+                                            "flexboxLayout": {
+                                                "alignSelf": "stretch",
+                                                "flexWrapBefore": false
+                                            },
+                                            "formControlName": "Status",
+                                            "gridLayout": {},
+                                            "hint": "Select an item",
+                                            "id": "mobilepicker0",
+                                            "itemSourceName": "",
+                                            "items": "['Open','Closed']",
+                                            "pickerAndroidCloseIcon": "ic_menu_close_clear_cancel",
+                                            "pickerIOSCloseIcon": "Cancel",
+                                            "pickerTitle": "Select an item",
+                                            "platform": "mobile",
+                                            "schemaVersion": "1.0",
+                                            "type": "mobile-picker",
+                                            "uniqueID": "05aa6567-61d8-4148-8ef9-1407ab109798"
+                                        },
+                                        {
+                                            "absoluteLayout": {},
+                                            "appearanceStyles": {
+                                                "backgroundColor": null,
+                                                "color": null
+                                            },
+                                            "boxStyles": {
+                                                "margin": "",
+                                                "padding": "",
+                                                "size": {
+                                                    "height": "",
+                                                    "width": ""
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "absoluteLayout": {},
+                                                    "appearanceStyles": {
+                                                        "backgroundColor": null,
+                                                        "color": null
+                                                    },
+                                                    "boxStyles": {
+                                                        "margin": "",
+                                                        "padding": "",
+                                                        "size": {
+                                                            "height": "",
+                                                            "width": ""
+                                                        }
+                                                    },
+                                                    "buttonType": "Submit",
+                                                    "classList": "-primary",
+                                                    "dockLayout": {},
+                                                    "documentDataSource": "",
+                                                    "flexboxLayout": {
+                                                        "alignSelf": "stretch",
+                                                        "flexWrapBefore": false
+                                                    },
+                                                    "formControlName": "",
+                                                    "gridLayout": {
+                                                        "col": null,
+                                                        "colSpan": null,
+                                                        "row": null,
+                                                        "rowSpan": null
+                                                    },
+                                                    "id": "mobileformbutton0",
+                                                    "platform": "mobile",
+                                                    "schemaVersion": "1.0",
+                                                    "text": "Submit",
+                                                    "textWrap": true,
+                                                    "type": "mobile-form-button",
+                                                    "uniqueID": "4feb9dc3-22c7-4be4-8210-9524a9b9e3c4"
+                                                },
+                                                {
+                                                    "absoluteLayout": {},
+                                                    "appearanceStyles": {
+                                                        "backgroundColor": null,
+                                                        "color": null
+                                                    },
+                                                    "boxStyles": {
+                                                        "margin": "",
+                                                        "padding": "",
+                                                        "size": {
+                                                            "height": "",
+                                                            "width": ""
+                                                        }
+                                                    },
+                                                    "buttonType": "Cancel",
+                                                    "classList": "",
+                                                    "dockLayout": {},
+                                                    "documentDataSource": "",
+                                                    "flexboxLayout": {
+                                                        "alignSelf": "stretch",
+                                                        "flexWrapBefore": false
+                                                    },
+                                                    "formControlName": "",
+                                                    "gridLayout": {
+                                                        "col": null,
+                                                        "colSpan": null,
+                                                        "row": null,
+                                                        "rowSpan": null
+                                                    },
+                                                    "id": "mobileformbutton1",
+                                                    "platform": "mobile",
+                                                    "schemaVersion": "1.0",
+                                                    "text": "Cancel",
+                                                    "textWrap": true,
+                                                    "type": "mobile-form-button",
+                                                    "uniqueID": "6f997c7a-eb4c-4601-922c-2f5c77452892"
+                                                }
+                                            ],
+                                            "classList": "form__footer",
+                                            "dockLayout": {},
+                                            "flexboxLayout": {
+                                                "alignSelf": "stretch",
+                                                "flexWrapBefore": false
+                                            },
+                                            "gridLayout": {
+                                                "col": null,
+                                                "colSpan": null,
+                                                "row": null,
+                                                "rowSpan": null
+                                            },
+                                            "id": "mobilestacklayout2",
+                                            "orientation": "Horizontal",
+                                            "platform": "mobile",
+                                            "schemaVersion": "1.0",
+                                            "type": "mobile-stack-layout",
+                                            "uniqueID": "09ba7962-f8e9-4b60-a229-8e7b24fcb419"
+                                        }
+                                    ],
+                                    "classList": "form",
+                                    "dockLayout": {},
+                                    "flexboxLayout": {
+                                        "alignSelf": "stretch",
+                                        "flexWrapBefore": false
+                                    },
+                                    "gridLayout": {
+                                        "col": null,
+                                        "colSpan": null,
+                                        "row": null,
+                                        "rowSpan": null
+                                    },
+                                    "id": "mobilestacklayout1",
+                                    "orientation": "Vertical",
+                                    "platform": "mobile",
+                                    "schemaVersion": "1.0",
+                                    "type": "mobile-stack-layout",
+                                    "uniqueID": "493b8f6c-7a66-4260-b7bf-aad186c249b5"
+                                }
+                            ],
+                            "classList": "",
+                            "customCancel": {},
+                            "customSubmit": {},
+                            "dockLayout": {},
+                            "documentDataSource": "tickets",
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobileform0",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "submitEventsAfter": "backward",
+                            "submitEventsAfterCustom": {},
+                            "submitEventsAfterForward": {
+                                "module": "",
+                                "view": ""
+                            },
+                            "submitEventsBefore": "default",
+                            "submitEventsBeforeCustom": {},
+                            "submitEventsSave": "default",
+                            "submitEventsSaveCustom": {},
+                            "type": "mobile-form",
+                            "uniqueID": "f3b1cb15-8ad4-4b6a-9ce9-003ff7515649",
+                            "useDefaultCancel": true,
+                            "useDefaultSubmit": true
+                        }
+                    ],
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilestacklayout0",
+                    "orientation": "Vertical",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-stack-layout",
+                    "uniqueID": "9f82442a-4dfb-44e5-aa68-244ec91d6207"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobilescrollview0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-scroll-view",
+            "uniqueID": "d5cd562a-9796-49f3-bf15-4136db261299"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "tickets",
+            "dataSourceType": "entity",
+            "filterDataSource": false,
+            "name": "tickets",
+            "offlineSupport": true,
+            "pageSize": 20,
+            "uniqueID": "f90c8868-2dc1-4b49-b2f4-4452099bf56b"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "TicketDetails",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "734a755b-b63d-4d46-a59e-b56f8e32503f",
+    "viewType": "mobile-blank"
+}

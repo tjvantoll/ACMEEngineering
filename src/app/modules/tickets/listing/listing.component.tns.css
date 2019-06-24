@@ -1,0 +1,16 @@
+/*
+* Add your custom CSS code here.
+* This file and any changes you make to it are preserved every time the app is generated.
+*/
+StackLayout Label {
+    font-size: 18;
+    color: black;
+}
+StackLayout Label + Label {
+    font-size: 14;
+    text-wrap: true;
+    color: #4f5d6c;
+}
+Image {
+    margin-right: 15;
+}

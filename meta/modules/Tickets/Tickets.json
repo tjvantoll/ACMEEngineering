@@ -1,0 +1,18 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "description": "",
+    "moduleType": "default",
+    "name": "Tickets",
+    "order": 1,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-area-chart"
+    },
+    "type": "module",
+    "uniqueID": "13f2da08-aa6b-43eb-80b7-c3b6b1bc41eb"
+}

@@ -1,0 +1,19 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "authorization": {
+        "allowedRoles": []
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "name": "Chat",
+    "nativeChatConfig": "{\n    \"botId\": \"5c793500b6b08453257802ff\",\n    \"channelId\": \"4658f770-d3af-405f-bfb0-8c2f1b1e948b\",\n    \"channelToken\": \"95765cdf-6afb-4cf2-8050-2bf1d718e005\"\n}",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "20e6919f-f41e-4a09-985c-09b94ca0abc0",
+    "viewType": "mobile-chat-view"
+}

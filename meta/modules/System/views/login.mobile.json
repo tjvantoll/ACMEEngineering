@@ -1,0 +1,24 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "forgotPasswordLabel": "Forgot your password?",
+    "loginLabel": "Log in",
+    "logo": "logo_default_login.png",
+    "micButtonLabel": "External Login",
+    "name": "login",
+    "passwordLabel": "Password",
+    "platform": "mobile",
+    "registerLabel": "Register",
+    "schemaVersion": "1.0",
+    "title": "<Title>",
+    "type": "view",
+    "uniqueID": "76d5c81a-b714-46e2-8716-e784c2f5dab5",
+    "usernameLabel": "Username",
+    "viewType": "mobile-login"
+}
